@@ -1,4 +1,4 @@
-package ARC.Gitdemo.Java.Ch_1;
+/* package ARC.Gitdemo.Java.Ch_1;
 
 import java.util.Scanner;
 
@@ -17,3 +17,6 @@ public class IntorNot {
         scn.close();
     }
 }
+*/
+
+//There is a problem I can't solve yet (7-9-25)
