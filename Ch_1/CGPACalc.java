@@ -1,4 +1,4 @@
-package ARC.Gitdemo.Java.Ch_1;
+package ARC.Gitdemo.helloworld.Ch_1;
 
 public class CGPACalc {
     public static void main(String[] args) {
