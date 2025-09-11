@@ -1,4 +1,4 @@
-package ARC.Gitdemo.Java.Ch_2;
+package ARC.Gitdemo.helloworld.Ch_2;
 import java.util.Scanner;
 public class GreaterorNot {
     public static void main(String[] args) {
