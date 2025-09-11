@@ -1,4 +1,4 @@
-package cals;
+package ARC.Gitdemo.helloworld.cals;
 import java.util.*;
 public class SIbyreceivingInput 
 {

@@ -1,6 +1,6 @@
 // Calculation of simple interest
 
-package cals;
+package ARC.Gitdemo.helloworld.cals;
 public class InputUsingCMDline 
 {
     public static void main ( String[] args )

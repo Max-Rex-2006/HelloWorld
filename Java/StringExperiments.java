@@ -1,4 +1,4 @@
-package Java;
+package ARC.Gitdemo.helloworld.Java;
 
 public class StringExperiments {
     public static void main(String[] args) {

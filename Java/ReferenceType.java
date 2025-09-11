@@ -1,4 +1,4 @@
-package Java;
+package ARC.Gitdemo.helloworld.Java;
 import java.util.Date;
 
 public class ReferenceType {

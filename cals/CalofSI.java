@@ -1,5 +1,5 @@
 // Calculation of simple interest
-package cals ;
+package ARC.Gitdemo.helloworld.cals;
 public class CalofSI
 {
     public static void main (String[] args)

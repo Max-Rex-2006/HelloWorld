@@ -1,4 +1,4 @@
-package Java;
+package ARC.Gitdemo.helloworld.Java;
 
 public class Arrays {
     public static void main(String[] args) {

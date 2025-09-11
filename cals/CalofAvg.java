@@ -1,5 +1,5 @@
 /* Calculation of Average */
-package cals;
+package ARC.Gitdemo.helloworld.cals;
 public class CalofAvg 
 {
     public static void main(String[] args)
