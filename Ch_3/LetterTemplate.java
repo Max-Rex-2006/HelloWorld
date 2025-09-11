@@ -1,4 +1,4 @@
-package ARC.Gitdemo.Java.Ch_3;
+package ARC.Gitdemo.helloworld.Ch_3;
 import java.util.Scanner;
 public class LetterTemplate {
     public static void main(String[] args) {
