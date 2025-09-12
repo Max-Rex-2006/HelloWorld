@@ -1,5 +1,7 @@
+//Program to detect whether it is an integer or not
+
+/*
 package ARC.Gitdemo.helloworld.Ch_1;
-/* package ARC.Gitdemo.Java.Ch_1;
 
 import java.util.Scanner;
 
@@ -20,4 +22,4 @@ public class IntorNot {
 }
 */
 
-//There is a problem I can't solve yet (7-9-25)
+//There is a problem I can't solve yet (07-09-2025)

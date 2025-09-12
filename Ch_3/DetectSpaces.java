@@ -1,3 +1,5 @@
+//Program to detect second and third spaces
+/*
 package ARC.Gitdemo.helloworld.Ch_3;
 import java.util.Scanner;
 public class DetectSpaces {
@@ -11,5 +13,5 @@ public class DetectSpaces {
     }
 }
 
-
-//Not yet fully successful
+*/
+//Not yet fully successful (10-09-2025)
