@@ -15,7 +15,7 @@ public class hollowRectangle {
 			for (row =1; row <= r; r++) {
 				//cell -> (c,r)
 				if(count==1 || row==1 || count==c || row==r) {
-					System.out.print("* ");
+					System.out.print("*");
 				}
 				else {
 					System.out.print(" ");
