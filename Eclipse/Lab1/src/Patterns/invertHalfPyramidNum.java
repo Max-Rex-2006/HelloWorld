@@ -15,7 +15,7 @@ public class invertHalfPyramidNum {
 			for(row=1; row<=c-count; row++) {
 				System.out.print(" ");
 			}
-			//inner loop for star print
+			//inner loop for number print
 			for(row=1; row<=count; row++) {
 				System.out.print(row);
 			}
