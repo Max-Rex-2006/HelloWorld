@@ -2,7 +2,7 @@ package Patterns;
 
 import java.util.Scanner;
 
-public class pyramidNumSpec {
+public class palindromePyramid {
 
 	public static void main(String[] args) {
 		int c,count,row;
