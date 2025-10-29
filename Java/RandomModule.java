@@ -1,3 +1,5 @@
+package ARC.Gitdemo.helloworld.Java;
+
 public class RandomModule {
     public static void main(String[] args) {
         int min = 1, max = 6;
