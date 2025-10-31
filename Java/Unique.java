@@ -38,3 +38,20 @@ is a method that prints to the console followed by a newline. So,
 it prints: 10L.
 
 */
+
+
+
+// Second Conditional Statement (if-else):
+
+// if (10 == a): Another if-statement.
+
+// 10 is an int literal (no suffix, so it's int by default).
+
+// a is int with value 10.
+
+// No type promotion is needed here since both are int. The 
+// comparison 10 == 10 is true.
+
+// If true, System.out.println("10"); executes, printing: 10.
+// The else clause is attached to this second if. Since the condition
+// is true, the else block (System.out.println("0");) is skipped.
