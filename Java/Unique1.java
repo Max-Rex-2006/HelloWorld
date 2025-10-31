@@ -1,6 +1,6 @@
 package ARC.Gitdemo.helloworld.Java;
 
-public class Unique {
+public class Unique1 {
     public static void main(String[] args) {
         int a = 10;
         if (10L==a)
