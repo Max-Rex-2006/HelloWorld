@@ -25,6 +25,7 @@ public class fibonacciPyramid {
 			}
 			System.out.println();
 		}
+		scn.close();
 	}
 
 }

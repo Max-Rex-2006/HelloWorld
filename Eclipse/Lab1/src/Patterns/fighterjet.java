@@ -60,7 +60,7 @@ public class fighterjet {
 			}
 			System.out.println();
 		}
-		
+		scn.close();
 		
 	}
 

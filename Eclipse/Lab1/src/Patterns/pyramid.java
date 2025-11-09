@@ -21,6 +21,7 @@ public class pyramid {
 			}
 			System.out.println();
 		}
+		scn.close();
 	}
 
 }

@@ -21,6 +21,7 @@ public class pyramidIncNum {
 			}
 			System.out.println();
 		}
+		scn.close();
 	}
 
 }

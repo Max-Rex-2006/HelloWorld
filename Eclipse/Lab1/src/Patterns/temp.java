@@ -29,6 +29,7 @@ public class temp {
            }
            System.out.println();
         }
-
+        scn.close();
 	}
+
 }

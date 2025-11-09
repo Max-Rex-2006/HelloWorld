@@ -21,6 +21,7 @@ public class invertHalfPyramidNum {
 			}
 			System.out.println();
 		}
+		scn.close();
 	}
 
 }

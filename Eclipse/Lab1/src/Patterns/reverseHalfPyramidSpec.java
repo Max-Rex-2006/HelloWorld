@@ -15,6 +15,7 @@ public class reverseHalfPyramidSpec {
 			}
 			System.out.println();
 		}
-    
+		scn.close();
     }
+
 }

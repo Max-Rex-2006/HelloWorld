@@ -41,6 +41,6 @@ public class butterfly {
 			}
 			System.out.println();
 		}
-		
+		scn.close();
 	}
 }

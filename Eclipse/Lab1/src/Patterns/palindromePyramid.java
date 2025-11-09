@@ -29,6 +29,6 @@ public class palindromePyramid {
            }
            System.out.println();
         }
-
+        scn.close();
 	}
 }

@@ -61,5 +61,6 @@ public class hollowButterfly {
 			}
 			System.out.println();
 		}
+		scn.close();
     }
 }

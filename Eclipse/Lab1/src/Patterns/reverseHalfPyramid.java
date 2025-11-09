@@ -16,7 +16,7 @@ public class reverseHalfPyramid {
 			}
 			System.out.println();
 		}
-
+		scn.close();
 	}
 
 }

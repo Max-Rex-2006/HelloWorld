@@ -26,6 +26,7 @@ public class hollowRhombus {
 			}
 			System.out.println();
 		}
+		scn.close();
 	}
 
 }

@@ -23,5 +23,6 @@ public class hollowRectangle {
 			}
 			System.out.print("\n");
 		}
+		scn.close();
 	}
 }
