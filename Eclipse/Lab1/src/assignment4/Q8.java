@@ -20,14 +20,15 @@ GCD of 56 and 98 is 14.
 		int a = scn.nextInt();
 		System.out.println("Enter the second number:");
 		int b = scn.nextInt();
+		int a_abs = a, b_abs = b;
 		int temp;
-		while(b>0)
+		while(b!=0)
 		{
-			temp=a%b;
-			a=b;
-			b=temp;
+			temp=b;
+			b=a%b;
+			a=temp;
 		}
-		System.out.println("GCD of " + a + " and " + b + " is " + a);
+		System.out.println("GCD of " + a_abs + " and " + b_abs + " is " + a);
 		scn.close();
 		
 	}
