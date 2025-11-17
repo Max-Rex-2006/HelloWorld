@@ -39,38 +39,38 @@ The equation has one root -1
 Enter a, b, c: 1 2 3  
 The equation has no real roots  
 				*/
-				Scanner scn = new Scanner(System.in);
-				System.out.println("Enter first side:");
-				int first = scn.nextInt();
-				System.out.println("Enter second side:");
-				int second = scn.nextInt();
-				System.out.println("Enter third side:");
-				int third = scn.nextInt();
-				if((first+second<third)||(second+third<first)||(third+first<second))
-				{
-					System.out.println("The given sides do not form a valid triangle.");
-				}
-				else
-				{
-					if(first==second && second==third)
-					{
-						System.out.println("The triangle is Equilateral.");
-					}
-					else 
-					{
-						if (first==second || second == third || third == first) 
-						{
-							System.out.println("The triangle is Isoscales.");
-						}
-						else
-						{
-							System.out.println("The triangle is Scalene.");
-						}
+				// Scanner scn = new Scanner(System.in);
+				// System.out.println("Enter first side:");
+				// int first = scn.nextInt();
+				// System.out.println("Enter second side:");
+				// int second = scn.nextInt();
+				// System.out.println("Enter third side:");
+				// int third = scn.nextInt();
+				// if((first+second<third)||(second+third<first)||(third+first<second))
+				// {
+				// 	System.out.println("The given sides do not form a valid triangle.");
+				// }
+				// else
+				// {
+				// 	if(first==second && second==third)
+				// 	{
+				// 		System.out.println("The triangle is Equilateral.");
+				// 	}
+				// 	else 
+				// 	{
+				// 		if (first==second || second == third || third == first) 
+				// 		{
+				// 			System.out.println("The triangle is Isoscales.");
+				// 		}
+				// 		else
+				// 		{
+				// 			System.out.println("The triangle is Scalene.");
+				// 		}
 						
-					}
+				// 	}
 
-				}
-				scn.close();
+				// }
+				// scn.close();
 	}
 
 }
