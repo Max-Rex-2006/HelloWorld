@@ -1,6 +1,6 @@
 package assignment3;
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
 public class Q6 {
 
