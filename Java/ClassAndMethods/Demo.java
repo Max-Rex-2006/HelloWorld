@@ -1,5 +1,8 @@
 package ARC.Gitdemo.helloworld.Java.ClassAndMethods;
 
+import java.util.Scanner;
+
+//In Java, functions are basically methods
 class Computer {
     
     public void start() {

@@ -1,6 +1,6 @@
 package assignment3;
 
-// import java.util.Scanner;
+import java.util.Scanner;
 
 public class Q6 {
 
@@ -9,11 +9,7 @@ public class Q6 {
 The two roots of a quadratic equation 𝑎𝑥2 + 𝑏𝑥 +𝑐 = 0 can be obtained using the 
 following formula:  
  
-CO3 
-r1 = −𝑏+ √𝑏2−4𝑎𝑐
- 2𝑎
- , and r2 = −𝑏− √𝑏2−4𝑎𝑐
- 2𝑎
+r1 = −𝑏 + √𝑏2−4𝑎𝑐/ 2𝑎, and r2 = −𝑏 − √𝑏2−4𝑎𝑐/ 2𝑎
  
 b2 - 4ac is called the discriminant of the quadratic equation.  
  
@@ -39,38 +35,25 @@ The equation has one root -1
 Enter a, b, c: 1 2 3  
 The equation has no real roots  
 				*/
-				// Scanner scn = new Scanner(System.in);
-				// System.out.println("Enter first side:");
-				// int first = scn.nextInt();
-				// System.out.println("Enter second side:");
-				// int second = scn.nextInt();
-				// System.out.println("Enter third side:");
-				// int third = scn.nextInt();
-				// if((first+second<third)||(second+third<first)||(third+first<second))
-				// {
-				// 	System.out.println("The given sides do not form a valid triangle.");
-				// }
-				// else
-				// {
-				// 	if(first==second && second==third)
-				// 	{
-				// 		System.out.println("The triangle is Equilateral.");
-				// 	}
-				// 	else 
-				// 	{
-				// 		if (first==second || second == third || third == first) 
-				// 		{
-				// 			System.out.println("The triangle is Isoscales.");
-				// 		}
-				// 		else
-				// 		{
-				// 			System.out.println("The triangle is Scalene.");
-				// 		}
-						
-				// 	}
-
-				// }
-				// scn.close();
+				Scanner scn = new Scanner(System.in);
+				System.out.print("Enter a, b, c:");
+				float a = scn.nextFloat();
+				float b = scn.nextFloat();
+				float c = scn.nextFloat();
+				float dis = (float)Math.pow(Math.pow(b,2)-4*a*c,0.5);
+				if (dis>0){
+					float r1 = (-b + dis) / (2*a);
+					float r2 = (-b - dis) / (2*a);
+					System.out.println("The equation has two roots: " + r1 + " and " + r2);
+				}
+				else if (dis==0){
+					float r = -b  / (2*a);
+					System.out.println("The equation has one root: " + r);
+				}
+				else{
+					System.out.println("The equation has no real roots ");
+				}
+				scn.close();
 	}
 
 }
