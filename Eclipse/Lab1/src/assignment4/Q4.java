@@ -36,25 +36,14 @@ Good guess!
 		int userguess;
 		do 
 		{
-			System.out.println("Enter your guess");
+			System.out.println("Enter your guess:");
 			userguess = scn.nextInt();
 			if (userguess==compguess)
-			{
 				System.out.println("Good Guess!");
-			}
+			else if (userguess<compguess)			
+				System.out.println("Too low, try again");
 			else
-			{
-				if (userguess<compguess)
-				{			
-					System.out.println("Too low, try again");
-				}
-				else
-				{
-					System.out.println("Too high, try again");
-				}
-								
-			}
-			
+				System.out.println("Too high, try again");
 		}while(userguess!=compguess);
 		scn.close();
 	}

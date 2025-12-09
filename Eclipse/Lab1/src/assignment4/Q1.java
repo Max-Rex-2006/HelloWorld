@@ -35,7 +35,7 @@ The number 123456 is not divisible by 9.
 			temp = temp/10;
 			sum += dig;
 		}
-		if ((num%sum)==0)
+		if ((sum%9)==0)
 			System.out.println("The number " + num + " is divisible by 9");
 		else
 			System.out.println("The number " + num + " is not divisible by 9");

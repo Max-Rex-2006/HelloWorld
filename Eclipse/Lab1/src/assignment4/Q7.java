@@ -36,9 +36,8 @@ Using do-while loop (7 to 10):
 				System.out.println("Enter a number: ");
 				int num = scn.nextInt();
 				System.out.println("Using for loop (1 to 3): ");
-				for (int i = 1; i<=3; i++) {
-					System.out.println(num + " X " + i + " = " + num*i);
-				}
+				for (int i = 1; i<=3; i++)
+				System.out.println(num + " X " + i + " = " + num*i);
 				System.out.println("Using while loop (4 to 6): ");
 				int i = 4;
 				while (i<=6) {
