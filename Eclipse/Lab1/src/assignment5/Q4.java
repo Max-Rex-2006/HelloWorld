@@ -27,7 +27,7 @@ public class Q4 {
 		}
 		System.out.println("The number with the most divisors is " + num);
 		System.out.println("Number of divisors: " + max);
-		
+		scn.close();
 	}
 
 }
