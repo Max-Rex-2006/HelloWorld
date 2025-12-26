@@ -8,7 +8,7 @@ public class Q16 {
 			return false;
 		for (int i = 0; i < password.length(); i++) {
 			char c = password.charAt(i);
-            if(Character.isLetterOrDigit(c)!=true)
+            if(Character.isLetterOrDigit(c)==false)
             	return false;
         }
 		int c = 0;
@@ -26,7 +26,7 @@ public class Q16 {
 		System.out.println("Enter password: ");
 		String s = scn.nextLine();
 		boolean res = isValidPassword(s);
-		if (res==true)
+		if (res)
 			System.out.println("Valid Password");
 		else
 			System.out.println("Invalid Password");

@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class Q12 {
 	public static int countVowels(String str) {
 		int c = 0;
+		str = str.toLowerCase();
 		for(int i = 0; i <= str.length()-1; i++) {
-			str.toLowerCase();
 			if(str.charAt(i)=='a'||str.charAt(i)=='e'||str.charAt(i)=='i'||str.charAt(i)=='o'||str.charAt(i)=='u')
 				c++;
 		}

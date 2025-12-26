@@ -25,8 +25,8 @@ public class Q2 {
 			return false;
 	}
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int total = 0;
+		System.out.println("Armstrong Numbers from 100 to 10000: ");
 		for (int i=100; i<10000; i++) {
 			if(isArmstrong(i)==true) {
 				System.out.println(i);

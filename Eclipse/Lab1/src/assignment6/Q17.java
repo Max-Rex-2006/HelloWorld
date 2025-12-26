@@ -6,9 +6,8 @@ public class Q17 {
 	public static char middleChar(String str) {
 		char c;
 		int n = str.length();
-		if(n%2==0) {
+		if(n%2==0)
 			c = str.charAt(n/2);
-		}
 		else
 			c = str.charAt(((n+1)/2)-1);
 		return c;
