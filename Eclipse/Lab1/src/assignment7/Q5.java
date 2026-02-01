@@ -22,8 +22,7 @@ public class Q5 {
 		System.out.println("Enter the elements:");
 		int a[] = new int[n];
 		for(int i=0; i<a.length; i++) {
-			int x = scn.nextInt();
-			a[i] = x;
+			a[i]= scn.nextInt();
 		}
 		System.out.println("Second Largest Value: " + findSecondLargest(a));
 		scn.close();
