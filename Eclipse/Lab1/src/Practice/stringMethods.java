@@ -9,7 +9,6 @@ public class stringMethods {
 		for(int i=0; i<s1.length(); i++) {
 			System.out.print(s1.charAt(i) + " ");
 		}
-		String s3 = "this is a book";
 		System.out.println();
 	}
 
