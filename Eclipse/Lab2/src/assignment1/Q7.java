@@ -8,8 +8,7 @@ public class Q7 {
 		Scanner scn = new Scanner(System.in);
 		System.out.print("Enter the elements of the Array: ");
 		for(int i=0; i<arr.length; i++) {
-			int n = scn.nextInt();
-			arr[i] = n;
+			arr[i] = scn.nextInt();
 		}
 	}
 	public static int findMax(int[] arr) {
@@ -28,7 +27,7 @@ public class Q7 {
 		}
 		return min;
 	}
-	public static int countOccurrences(int[] arr, int value) {
+	public static int count(int[] arr, int value) {
 		int c=0;
 		for(int i=0; i<arr.length; i++) {
 			if (arr[i] == value)
@@ -36,7 +35,7 @@ public class Q7 {
 		}
 		return c;
 	}
-	public static int firstPositionOfMax(int[] arr, int max) {
+	public static int posOfMax(int[] arr, int max) {
 		for(int i=0; i<arr.length; i++) {
 			if (arr[i] == max)
 				return i+1;
@@ -45,7 +44,7 @@ public class Q7 {
 	}
 	public static int lastPositionOfMin(int[] arr, int min) {
 		int pos = 0;
-		for(int i=0; i<arr.length; i++) {
+		for(int i=arr.length-1; i>=0; i--) {
 			if (arr[i] == min)
 				pos = i;
 		}
@@ -57,9 +56,9 @@ public class Q7 {
 		int size = scn.nextInt();
 		int [] a = new int[size];
 		readArray(a);
-		System.out.println("Maximum element of Array is " + findMax(a) + " and occurs " + countOccurrences(a,findMax(a)) + " time(s)");
-		System.out.println("Minimum element of Array is " + findMin(a) + " and occurs " + countOccurrences(a,findMin(a)) + " time(s)");
-		System.out.println("First occurrence of maximum element is at position " + firstPositionOfMax(a,findMax(a)));
+		System.out.println("Maximum element of Array is " + findMax(a) + " and occurs " + count(a,findMax(a)) + " time(s)");
+		System.out.println("Minimum element of Array is " + findMin(a) + " and occurs " + count(a,findMin(a)) + " time(s)");
+		System.out.println("First occurrence of maximum element is at position " + posOfMax(a,findMax(a)));
 		System.out.println("Last occurrence of minimum element is at position " + lastPositionOfMin(a,findMin(a)));
 		scn.close();
 	}
