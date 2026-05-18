@@ -2,9 +2,21 @@ package assignment1;
 
 public class Q11 {
 	public static void main(String[] args) {
-		int n = Integer.parseInt(args[0]);
-		int c = 0;
-		System.out.println("The order of n is " + n);
-		System.out.println("The number of times one must repeatedly divide this number by 2 before getting a value less than 2 is " + c);
+		try{
+			int a = Integer.parseInt(args[0]);
+			int b = Integer.parseInt(args[1]);
+			int c = Integer.parseInt(args[2]);
+			if((a+b)== c)
+				System.out.println("The first condition is satisfied: " + a + " + " + b + " = " + c);
+			else if(a==(b-c))
+				System.out.println("The second condition is satisfied: " + a + " = " + b + " - " + c);
+			else if((a*b)==c)
+				System.out.println("The third condition is satisfied: " + a + " = " + b + " * " + c);
+			else
+				System.out.println("None of the conditions are satisfied.");
+		}
+		catch (ArrayIndexOutOfBoundsException e) {
+			System.out.println("You forgot to enter a number as an argument.");
+		}
 	}
 }
