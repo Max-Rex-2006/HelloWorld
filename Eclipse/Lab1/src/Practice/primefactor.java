@@ -28,6 +28,7 @@ public class primefactor {
 	}
 
 	public static void main(String[] args) {
+		@SuppressWarnings("resource")
 		Scanner scn = new Scanner(System.in);
 		System.out.println("Enter your number: ");
 		int num = scn.nextInt();

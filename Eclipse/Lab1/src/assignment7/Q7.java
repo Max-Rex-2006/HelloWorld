@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Q7 {
 	public static void readArray(int[] arr) {
+		@SuppressWarnings("resource")
 		Scanner scn = new Scanner(System.in);
 		System.out.print("Enter " + arr.length + " elements: ");
 		for(int i=0; i<arr.length; i++) {

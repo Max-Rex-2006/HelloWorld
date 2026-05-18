@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class g3_odd_2 {
 	public static void readArray(int[] arr) {
+		@SuppressWarnings("resource")
 		Scanner scn = new Scanner(System.in);
 		System.out.println("Enter the amount of money available in each coach: ");
 		for(int i=0; i<arr.length; i++) {

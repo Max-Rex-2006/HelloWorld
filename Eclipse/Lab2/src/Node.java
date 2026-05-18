@@ -142,7 +142,6 @@ public class Node
         }
 
         Node temp = start;
-        int i=0;
         while(temp!=null)
         {
             if(temp.regd_no==id)
@@ -157,7 +156,6 @@ public class Node
             }
             
             temp = temp.next;
-            i++;
         }
 
         if(temp==null)
