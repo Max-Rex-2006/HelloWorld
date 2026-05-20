@@ -1,40 +1,53 @@
 # HelloWorld
-_All the basic Projects & Experiments_
 
-This repository contains a collection of Java projects, basic experiments, and programming exercises. It’s organized by IDE and by topic, providing practical examples and practice programs for learning Java.
+A beginner-friendly Java practice repository with small programs, lab assignments, and experiments.
 
-## Directory Structure
+This project is designed for Java learners who want to explore core programming concepts through hands-on examples, and for contributors who want to help improve beginner learning resources.
+
+## Why this repository matters
+
+- Covers Java basics with practical examples.
+- Useful for first-time contributors improving documentation, code quality, and beginner exercises.
+- Structured for easy browsing by topic and project type.
+
+## Project structure
 
 - `Eclipse/`  
-  Contains Eclipse IDE project files and example lab assignments.
+  Eclipse-based project work, including lab assignments and practice packages.
 - `Java/`  
-  Practice Java programs, experiments, and reference code—grouped by topic/focus.
+  Standalone Java source programs grouped by concepts (experiments, classes/methods, chapter-wise notes).
 - `cals/`  
-  Compiled Java `.class` files for calculator/input-related experiments.
-  > _Best practice: keep only `.java` source files for sharing and collaboration._
+  Compiled `.class` output related to calculator/input examples.
 
-## Usage
+## How to view the code
 
-If you do **not** have permission to clone or copy files from this repository but would like to experiment with the code:
+- Use GitHub’s file browser to explore folders and read source files online.
+- Check `.java` files in `Java/` and `Eclipse/**/src/` for learning examples.
+- If you need additional access/permissions, contact the repository maintainer.
 
-- **Browse the repository online:**  
-  Use the GitHub interface to explore directories and read code directly.
-- **Manual copy:**  
-  If a file or snippet is needed, copy code blocks directly from the file’s page in your browser (subject to license and access rights).
-- **Ask the repository owner for access:**  
-  You may request source access if you want to run or modify the code locally.
-- **Learning inspiration:**  
-  Even without download/clone rights, you can review the code for educational purposes, reference, or for ideas in your own work.
+## How to contribute
 
-## Contributions
+We welcome improvements from beginners and experienced contributors alike.
 
-If you have suggestions or want to contribute but cannot submit code directly, consider:
-- Opening an issue with your feedback or proposed changes.
-- Contacting the owner with your ideas or code snippets.
+1. Fork the repository.
+2. Create a branch for your change.
+3. Make focused, beginner-friendly improvements (code, docs, cleanup, examples).
+4. Open a pull request with a clear description.
+
+For contribution expectations, refer to the **Contribution Guidelines** in this README section and follow standard GitHub PR best practices.
+
+## GSSOC 2026 Callout
+
+This repository is open to **GSSOC 2026** contributions.  
+If you are a new contributor, this is a great place to start with:
+
+- documentation improvements,
+- Java beginner-level fixes,
+- code organization and readability enhancements.
+
+Every meaningful contribution is appreciated—start small, ask questions, and grow as an open-source contributor.
 
 ## License
 
-This repository is licensed as "All Rights Reserved."  
-Viewing the code online is permitted.  
-**No copying, redistribution, or reuse is allowed** without explicit consent from the author.  
-See the [LICENSE](LICENSE) file for details.
+This repository is currently licensed under a custom **All Rights Reserved** license (not MIT).  
+Please read [LICENSE.md](LICENSE.md) before reusing, modifying, or redistributing any content.
