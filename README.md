@@ -31,3 +31,10 @@ If you do **not** have permission to clone or copy files from this repository bu
 If you have suggestions or want to contribute but cannot submit code directly, consider:
 - Opening an issue with your feedback or proposed changes.
 - Contacting the owner with your ideas or code snippets.
+
+## License
+
+This repository is licensed as "All Rights Reserved."  
+Viewing the code online is permitted.  
+**No copying, redistribution, or reuse is allowed** without explicit consent from the author.  
+See the [LICENSE](LICENSE) file for details.
